@@ -1,27 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #222831;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+h4 {
+  font-family: "Oswald", sans-serif;
+}
+
+h5 {
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+}
+
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.custom-font {
+  font-family: "Inter", sans-serif;
+}
+
+.debug-red {
+  border: 2px solid red;
+}
+
+.debug-green {
+  border: 2px solid greenyellow;
+}
+
+.debug-blue {
+  border: 2px solid blue;
+}
+
+input {
+  font-family: "Inter", sans-serif;
 }
