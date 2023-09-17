@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <div className="flex w-full py-[16px] px-[32px] items-center justify-between">
       <div className="flex items-center gap-[48px]">
-        <Image src="/logo.png" alt="" width={70} height={44} />
+        <img height={44} src="./Logo.png" />
         <div className="flex items-center justify-center gap-[16px]">
           <Link
             href="/"
