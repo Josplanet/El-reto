@@ -1,6 +1,6 @@
-const Logos = () => {
+const logos = () => {
   return (
-    <div className="w-full h-[160px] flex justify-center items-center">
+    <div className="w-full py-[56px] flex justify-center items-center">
       <div className="flex gap-[80px] items-center">
         <img height={48} src="/logos/1.png" alt="" />
         <img height={48} src="/logos/2.png" alt="" />
@@ -13,4 +13,4 @@ const Logos = () => {
   );
 };
 
-export default Logos;
+export default logos;
