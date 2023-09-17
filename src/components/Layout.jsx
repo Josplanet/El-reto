@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
-    <main className=" max-w-[1440px] ">
+    <main className=" max-w-[1440px] mx-auto">
       <div className="relative  w-full h-full flex flex-col items-center justify-center">
         <div
           style={{
